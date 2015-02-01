@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdown demo page</title>
+  <link rel="stylesheet" type="text/css" href="dropdown.css">
+</head>
+<body>
+<h2>This is the dropdown demo page</h2>
+<input id="dropdown-input" placeholder="Please input countries">
+
+<script type="text/javascript" src="dropdown.js"></script>
+<script type="text/javascript">
+  Dropdown.init({
+   'idName': 'dropdown-input',
+   'url': 'country.json'
+  });
+</script>
+</body>
+</html>
